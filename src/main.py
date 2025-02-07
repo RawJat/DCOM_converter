@@ -26,7 +26,7 @@ def convert_dicom_to_image(dicom_path, output_path, voi_lut=True, fix_monochrome
         data = data / np.max(data)
     data = (data * 255).astype(np.uint8)
 
-    # Create an image object from the numpy array and save it
+
     image = Image.fromarray(data)
     image.save(output_path)
 
@@ -34,9 +34,9 @@ def convert_dicom_to_image(dicom_path, output_path, voi_lut=True, fix_monochrome
 def process_directory(input_dir, output_dir, output_format='png', voi_lut=True, fix_monochrome=True):
 
     for subdir, dirs, files in os.walk(input_dir):
-        # Compute the relative path of the current subdirectory with respect to input_dir.
+
         rel_path = os.path.relpath(subdir, input_dir)
-        # Create the corresponding output subdirectory.
+
         output_subdir = os.path.join(output_dir, rel_path)
         os.makedirs(output_subdir, exist_ok=True)
 
@@ -57,9 +57,9 @@ def process_directory(input_dir, output_dir, output_format='png', voi_lut=True, 
 
 if __name__ == "__main__":
     # Input Directory
-    input_directory = "D:\\00001"
+    input_directory = "D:\ED\DCOM_converter\data\\00001"
 
     #Output Directory
-    output_directory = "D:\dATA"
+    output_directory = "D:\ED\DCOM_converter\data\output_images"
 
     process_directory(input_directory, output_directory, output_format='png')
