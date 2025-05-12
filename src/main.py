@@ -57,9 +57,9 @@ def process_directory(input_dir, output_dir, output_format='png', voi_lut=True, 
 
 if __name__ == "__main__":
     # Input Directory
-    input_directory = "D:\ED\DCOM_converter\data\\00001"
+    input_directory = r"D:\ED\DCOM_converter\data\\00001"
 
     #Output Directory
-    output_directory = "D:\ED\DCOM_converter\data\output_images"
+    output_directory = r"D:\ED\DCOM_converter\data\output_images"
 
     process_directory(input_directory, output_directory, output_format='png')
