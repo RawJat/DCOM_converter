@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44c4bd7e-2e99-4f7f-9312-aa8df2a1003d" name="Changes" comment="COMMIT">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <workItem from="1746442516275" duration="734000" />
       <workItem from="1746861618546" duration="484000" />
       <workItem from="1746949235026" duration="587000" />
-      <workItem from="1747035184041" duration="475000" />
+      <workItem from="1747035184041" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="COMMIT">
       <option name="closed" value="true" />

@@ -1,10 +1,9 @@
 # Python
-__pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
-.venv/
+# .venv/ was removed as requested
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -16,7 +15,8 @@ __pycache__/
 # Logs
 *.log
 
-# Optional - uncomment if you want to ignore data
-data/
-/data/
+# Project specific
+*.dscache
 models/residual
+
+# Note: data/ is not ignored as per your request
